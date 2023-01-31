@@ -1,0 +1,138 @@
+.weatherlogo {
+  border-radius: 100%;
+
+}
+
+body {
+  background-image: url("../public/background.jpg");
+  background-size: cover;
+}
+
+.text {
+  color:white;
+}
+
+input {
+  width: 500px;
+  height:35px;
+  background-color: transparent;
+  font-size: 25px;
+  color: white;
+  border-radius: 10px;
+
+}
+
+button {
+  height: 35px;
+  width: 80px;
+  font-size:30px;
+  font-weight: bold;
+  color: rgb(5, 98, 98);
+  border-radius: 10px;
+  cursor: pointer;
+
+  
+}
+.text{
+  margin: 0 10px;
+}
+
+.navbar {
+  display:flex;
+  align-items: center;
+  margin-top: 50px;
+  margin-left:20px
+  
+}
+
+.weatherbox {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(76, 72, 72);
+  border-radius: 25px;
+  width: 500px;
+  height:600px;
+  background: #5772b1;
+  opacity: .7;
+  padding-left: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.weatherlogobox{
+ 
+  display: flex;
+  margin-bottom: -40px;
+}
+.logo{
+
+  font-size: 130px;
+  margin-left: 80px;
+  color: aliceblue;
+  ;
+}
+  
+  
+
+
+.city {
+  font-size: 50px;
+  margin-bottom: 0px;
+  margin-top:20px;
+  color:white
+  
+}
+
+.temp {
+  font-size: 100px;
+  padding:0px;
+  margin: 0px;
+  color: white;
+}
+
+.description {
+  margin-left: 50px;
+  font-size: 25px;
+  color: white;
+}
+
+.highlow{
+  
+  display:flex;
+  flex-direction: row;
+ 
+}
+.maxmin {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 30px;
+  
+  color: white;
+}
+
+.high {
+  
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 26px;
+  color:white;
+}
+
+
+.otherDescriptions{
+  display:flex;
+  flex-direction: row;
+}
+
+.rain{
+  color: #31cafb
+}
+
+.sunny {
+  color: #ffde33
+}
+
+.errorMsg {
+  color: rgb(118, 178, 110);
+}
