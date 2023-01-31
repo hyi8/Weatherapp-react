@@ -10,7 +10,6 @@ const Main = () => {
   const [city, setCity] = useState("toronto");
   const [inputValue, setInputValue] = useState('');
 
-
   const handleInput = (e)=> {
     setInputValue(e.target.value);
     e.preventDefault();
@@ -25,19 +24,16 @@ const Main = () => {
     
     e.preventDefault();
   };
-
-
-
-
   
-  
+
   useEffect(function() {
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=93fc44fb622fbc988d575131400d1a61`)
         .then(res => res.json())
         .then(data => setData(data))
   },[city])
 
-let icon;
+
+  let icon;
 console.log(data);
 
 switch ("name" in data && data?.weather[0].main) {
